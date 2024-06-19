@@ -44,6 +44,7 @@ public static int partition(int[] array, int low, int high) {
     array[idx] = pivot;
 
     System.out.println("for another branch");
+    System.out.println("for merging again");
     return idx;
 
 
