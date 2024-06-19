@@ -43,7 +43,9 @@ public static int partition(int[] array, int low, int high) {
     array[high] = array[idx];
     array[idx] = pivot;
 
+    System.out.println("for another branch");
     return idx;
+
 
 }
 
